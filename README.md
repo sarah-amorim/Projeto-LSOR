@@ -232,9 +232,8 @@ Resumo da matriz de testes (marcar ✅ ao validar):
 ssh usuario1.sobrenome@g3-pc3-vm2
 ```
 
-```text
-<colar a saída>
-```
+<img width="802" height="565" alt="image" src="https://github.com/user-attachments/assets/989105b7-0800-4a11-8a95-e4edd212bb09" />
+
 
 ### 11.3 Internet pelo gateway
 
