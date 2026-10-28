@@ -84,7 +84,7 @@ for u in sarah.amorim pedro.rocha; do
   sudo passwd "$u"
 done
 
-getent passwd usuario1.sobrenome usuario2.sobrenome usuario3.sobrenome usuario4.sobrenome
+getent passwd sarah.amorim pedro.rocha
 ls -l /home
 ```
 
