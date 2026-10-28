@@ -60,10 +60,6 @@ Ambiente: VMs criadas especificamente para este projeto, no VirtualBox, com Ubun
 
 ## 5. Instalação das VMs e LVM
 
-Passos executados na instalação (prints em `img/`):
-
-![Storage configuration](img/lvm-instalacao.png)
-
 ```bash
 lsblk
 sudo pvs
@@ -72,9 +68,7 @@ sudo lvs
 df -h /
 ```
 
-```text
-<colar a saída>
-```
+<img width="803" height="357" alt="passo-5" src="https://github.com/user-attachments/assets/d23b41c0-1bbf-4f1b-8dfc-f29bfabf65ed" />
 
 ## 6. Usuários
 
@@ -88,10 +82,7 @@ done
 getent passwd sarah.amorim pedro.rocha arthur.soares
 ls -l /home
 ```
-
-```text
-<colar a saída>
-```
+<img width="801" height="197" alt="passo-6" src="https://github.com/user-attachments/assets/7bddf4c5-c710-4b67-90a4-3a1c4b37a926" />
 
 ## 7. Hostname e /etc/hosts
 
@@ -123,10 +114,7 @@ grep grupo3 /etc/hosts
 getent hosts g3-pc1-gw
 getent hosts g3-pc4-vm2.grupo3.bsi-26-2.maceio.lab
 ```
-
-```text
-<colar a saída>
-```
+<img width="801" height="267" alt="passo-7" src="https://github.com/user-attachments/assets/454aada0-9049-4ca9-8176-328389c2e08a" />
 
 ## 8. Netplan
 
@@ -212,9 +200,8 @@ sudo systemctl enable --now ssh
 systemctl status ssh
 ```
 
-```text
-<colar a saída>
-```
+<img width="802" height="461" alt="passo-10" src="https://github.com/user-attachments/assets/e2eca398-e394-4b74-8bfc-741f375c4156" />
+
 
 ## 11. Testes
 
