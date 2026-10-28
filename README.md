@@ -15,10 +15,7 @@ Rede privada do Grupo 3 com 8 VMs Ubuntu Server distribuídas em 4 PCs do labora
 
 ## 2. Topologia
 
-![Topologia lógica](img/topologia-logica.png)
-![Topologia física](img/topologia-fisica.png)
-
-Diagrama editável: <link do Lucid ou arquivo>
+<img width="1780" height="830" alt="image" src="https://github.com/user-attachments/assets/0ee64f02-1808-456d-9d0c-1c4a85203cfc" />
 
 ## 3. Endereçamento e nomes
 
