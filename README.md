@@ -212,9 +212,7 @@ ping -c 3 g3-pc1-vm1
 ping -c 3 g3-pc1-vm1.grupo3.bsi-26-2.maceio.lab
 ```
 
-```text
-<colar as saídas, repetindo para as demais VMs>
-```
+<img width="800" height="484" alt="passo-11" src="https://github.com/user-attachments/assets/943e50de-112b-4526-8455-13d3a5b91adc" />
 
 Resumo da matriz de testes (marcar ✅ ao validar):
 
@@ -249,11 +247,6 @@ ping -c 3 1.1.1.1
 ping -c 3 google.com
 traceroute google.com
 ```
-
-```text
-<colar as saídas>
-```
-
 ## 12. Problemas encontrados e soluções
 
 | Problema | Causa | Solução |
