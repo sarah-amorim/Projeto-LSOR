@@ -49,12 +49,12 @@ Diagrama editável: <link do Lucid ou arquivo>
 | g3-pc1-gw | 512 MB | 1 | 32 GB | Sim |
 | g3-pc1-vm1 | 512 MB | 1 | 32 GB | Sim |
 | g3-pc1-vm2 | 512 MB | 1 | 32 GB | Sim |
-| g3-pc2-vm1 | 512 MB | 1 | 32 GB | Sim |
-| g3-pc2-vm2 | 512 MB | 1 | 32 GB | Sim |
+| g3-pc2-vm1 | 2048 MB | 1 | 25 GB | Sim |
+| g3-pc2-vm2 | 2048 MB | 1 | 25 GB | Sim |
 | g3-pc3-vm1 | 512 MB | 1 | 32 GB | Sim |
 | g3-pc3-vm2 | 512 MB | 1 | 32 GB | Sim |
-| g3-pc4-vm1 | 512 MB | 1 | 32 GB | Sim |
-| g3-pc4-vm2 | 512 MB | 1 | 32 GB | Sim |
+| g3-pc4-vm1 | 2048 MB | 1 | 25 GB | Sim |
+| g3-pc4-vm2 | 2048 MB | 1 | 25 GB | Sim |
 
 Ambiente: VMs criadas especificamente para este projeto, no VirtualBox, com Ubuntu Server.
 
