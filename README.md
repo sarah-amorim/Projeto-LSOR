@@ -43,13 +43,13 @@ Rede privada do Grupo 3 com 8 VMs Ubuntu Server distribuídas em 4 PCs do labora
 
 | VM | Memória | vCPUs | Disco | LVM |
 |:--|:--|:--|:--|:--|
-| g3-pc1-gw | 512 MB | 1 | 32 GB | Sim |
-| g3-pc1-vm1 | 512 MB | 1 | 32 GB | Sim |
-| g3-pc1-vm2 | 512 MB | 1 | 32 GB | Sim |
+| g3-pc1-gw | - MB | 1 | - GB | Sim |
+| g3-pc1-vm1 | - MB | 1 | - GB | Sim |
+| g3-pc1-vm2 | - MB | 1 | - GB | Sim |
 | g3-pc2-vm1 | 2048 MB | 1 | 25 GB | Sim |
 | g3-pc2-vm2 | 2048 MB | 1 | 25 GB | Sim |
-| g3-pc3-vm1 | 512 MB | 1 | 32 GB | Sim |
-| g3-pc3-vm2 | 512 MB | 1 | 32 GB | Sim |
+| g3-pc3-vm1 | 2048 MB | 1 | 25 GB | Sim |
+| g3-pc3-vm2 | 2048 MB | 1 | 32 GB | Sim |
 | g3-pc4-vm1 | 2048 MB | 1 | 25 GB | Sim |
 | g3-pc4-vm2 | 2048 MB | 1 | 25 GB | Sim |
 
