@@ -78,7 +78,7 @@ df -h /
 ## 6. Usuários
 
 ```bash
-for u in usuario1.sobrenome usuario2.sobrenome usuario3.sobrenome usuario4.sobrenome; do
+for u in sarah.amorim pedro.rocha; do
   sudo useradd -m -s /bin/bash "$u"
   sudo usermod -aG sudo "$u"
   sudo passwd "$u"
