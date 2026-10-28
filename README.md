@@ -163,9 +163,7 @@ ip a
 ip route
 ```
 
-```text
-<colar a saída>
-```
+<img width="801" height="402" alt="image" src="https://github.com/user-attachments/assets/860f9a1f-410d-40e9-a614-9661769aa397" />
 
 ## 9. Gateway: encaminhamento e NAT
 
