@@ -185,9 +185,8 @@ sudo iptables -t nat -L -n -v
 sudo iptables -L -n -v
 ```
 
-```text
-<colar as saídas>
-```
+<img width="1280" height="800" alt="VirtualBox_g3-pc1-gtw_28_10_2026_19_57_01" src="https://github.com/user-attachments/assets/b03b4371-f689-4397-923f-4f5990ca296c" />
+
 
 ## 10. SSH
 
