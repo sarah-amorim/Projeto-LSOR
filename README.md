@@ -5,6 +5,7 @@
 
 | Nome | Usuário da VM |
 |:--|:--|
+| Arthur Soares Silva | arthur.soares |
 | Pedro Henrique Cavalcante Rocha | pedro.rocha |
 | Sarah Amorim dos Santos | sarah.amorim |
 
@@ -78,13 +79,13 @@ df -h /
 ## 6. Usuários
 
 ```bash
-for u in sarah.amorim pedro.rocha; do
+for u in sarah.amorim pedro.rocha arthur.soares; do
   sudo useradd -m -s /bin/bash "$u"
   sudo usermod -aG sudo "$u"
   sudo passwd "$u"
 done
 
-getent passwd sarah.amorim pedro.rocha
+getent passwd sarah.amorim pedro.rocha arthur.soares
 ls -l /home
 ```
 
