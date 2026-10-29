@@ -27,7 +27,7 @@ Rede privada do Grupo 3 com 8 VMs Ubuntu Server distribuídas em 4 PCs do labora
 
 | Host | PC | Interface | IP/máscara | Gateway padrão | FQDN |
 |:--|:--:|:--|:--|:--|:--|
-| g3-pc1-gw (WAN) | 1 | enp0s3 | 172.20.23.X/22 | 172.20.20.1 | g3-pc1-gw.grupo3.bsi-26-2.maceio.lab |
+| g3-pc1-gw (WAN) | 1 | enp0s3 | 172.20.23.50/22 | 172.20.20.1 | g3-pc1-gw.grupo3.bsi-26-2.maceio.lab |
 | g3-pc1-gw (LAN) | 1 | enp0s8 | 192.168.26.49/28 | — | — |
 | g3-pc1-vm1 | 1 | enp0s3 | 192.168.26.50/28 | 192.168.26.49 | g3-pc1-vm1.grupo3.bsi-26-2.maceio.lab |
 | g3-pc1-vm2 | 1 | enp0s3 | 192.168.26.51/28 | 192.168.26.49 | g3-pc1-vm2.grupo3.bsi-26-2.maceio.lab |
