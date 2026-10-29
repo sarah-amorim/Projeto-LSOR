@@ -8,6 +8,7 @@
 | Arthur Soares Silva | arthur.soares |
 | Pedro Henrique Cavalcante Rocha | pedro.rocha |
 | Sarah Amorim dos Santos | sarah.amorim |
+| Marco Bueno | marco.bueno |
 
 ## 1. Apresentação
 
