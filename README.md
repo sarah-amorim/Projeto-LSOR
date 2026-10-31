@@ -1,15 +1,15 @@
 # Projeto LSOR: Rede virtualizada com 8 VMs e Gateway NAT (Grupo 3)
 
 **Turma:** bsi-26-2 (2026.2) 
-**Grupo 3:** 
 **Integrantes:**
 
 | Nome | Usuário da VM |
 |:--|:--|
 | Arthur Soares Silva | arthur.soares |
+| Marco Bueno | marco.bueno |
 | Pedro Henrique Cavalcante Rocha | pedro.rocha |
 | Sarah Amorim dos Santos | sarah.amorim |
-| Marco Bueno | marco.bueno |
+
 
 ## 1. Apresentação
 
