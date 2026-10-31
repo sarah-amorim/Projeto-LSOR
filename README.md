@@ -1,6 +1,6 @@
 # Projeto LSOR: Rede virtualizada com 8 VMs e Gateway NAT (Grupo 3)
 
-**Turma:** bsi-26-2 (2026.2) · **Grupo:** 3
+**Turma:** bsi-26-2 (2026.2) · **Grupo 3:** 
 **Integrantes:**
 
 | Nome | Usuário da VM |
