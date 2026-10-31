@@ -14,7 +14,7 @@
 
 Rede privada do Grupo 3 com 8 VMs Ubuntu Server distribuídas em 4 PCs do laboratório, mais uma VM gateway que roteia e faz NAT do tráfego para a rede do laboratório. Todas as máquinas têm IP fixo, nome dentro do domínio `grupo3.bsi-26-2.maceio.lab` e os mesmos usuários.
 
-## 2. Topologia
+## 2. Topologia 
 
 <img width="1780" height="830" alt="image" src="https://github.com/user-attachments/assets/0ee64f02-1808-456d-9d0c-1c4a85203cfc" />
 
@@ -128,7 +128,7 @@ network:
     enp0s3:            # WAN - rede do laboratório
       dhcp4: false
       addresses:
-        - 172.20.23.X/22
+        - 172.20.23.50/22
       routes:
         - to: default
           via: 172.20.20.1
