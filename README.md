@@ -175,10 +175,6 @@ Passos conforme a Aula 08:
 - comandos das regras MASQUERADE e FORWARD
 - comandos de persistência com iptables-persistent
 
-<img width="1280" height="800" alt="VirtualBox_g3-pc1-gtw_28_10_2026_19_57_23" src="https://github.com/user-attachments/assets/3a9b93cf-c199-4921-b205-c52929c8c054" />
-
-
-
 Verificação no gateway:
 
 ```bash
@@ -186,9 +182,6 @@ sysctl net.ipv4.ip_forward
 sudo iptables -t nat -L -n -v
 sudo iptables -L -n -v
 ```
-
-<img width="1280" height="800" alt="VirtualBox_g3-pc1-gtw_28_10_2026_19_57_01" src="https://github.com/user-attachments/assets/b03b4371-f689-4397-923f-4f5990ca296c" />
-
 
 ## 10. SSH
 
@@ -212,8 +205,6 @@ ping -c 3 192.168.26.50
 ping -c 3 g3-pc1-vm1
 ping -c 3 g3-pc1-vm1.grupo3.bsi-26-2.maceio.lab
 ```
-
-<img width="800" height="484" alt="passo-11" src="https://github.com/user-attachments/assets/943e50de-112b-4526-8455-13d3a5b91adc" />
 
 | Origem \ Destino | gw | pc1-vm1 | pc1-vm2 | pc2-vm1 | pc2-vm2 | pc3-vm1 | pc3-vm2 | pc4-vm1 | pc4-vm2 |
 |:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -245,8 +236,6 @@ ping -c 3 1.1.1.1
 ping -c 3 google.com
 traceroute google.com
 ```
-<img width="1280" height="800" alt="VirtualBox_g3-pc1-gtw_28_10_2026_20_02_13" src="https://github.com/user-attachments/assets/f686eaca-1f3d-4e8b-af95-2e92e2ea99ee" />
-
 ## 12. Problemas encontrados e soluções
 
 | Problema | Causa | Solução |
