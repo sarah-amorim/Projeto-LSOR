@@ -72,13 +72,13 @@ df -h /
 ## 6. Usuários
 
 ```bash
-for u in sarah.amorim pedro.rocha arthur.soares; do
+for u in sarah.amorim pedro.rocha arthur.soares marco.bueno; do
   sudo useradd -m -s /bin/bash "$u"
   sudo usermod -aG sudo "$u"
   sudo passwd "$u"
 done
 
-getent passwd sarah.amorim pedro.rocha arthur.soares
+getent passwd sarah.amorim pedro.rocha arthur.soares marco.bueno
 ls -l /home
 ```
 <img width="801" height="197" alt="passo-6" src="https://github.com/user-attachments/assets/7bddf4c5-c710-4b67-90a4-3a1c4b37a926" />
