@@ -209,6 +209,8 @@ sudo iptables -L -n -v
 
 ## 10. SSH
 
+O **SSH (Secure Shell)** é um protocolo de rede seguro que permite aceder e gerir um servidor ou máquina remota através de uma linha de comandos encriptada. Ele substitui protocolos inseguros como o Telnet, garantindo a confidencialidade e a integridade dos dados transmitidos, tais como credenciais e comandos. Além do acesso remoto, também é amplamente utilizado para a transferência segura de ficheiros (via SCP/SFTP) e o encaminhamento de portas (*port forwarding*).
+
 ```bash
 sudo apt install -y openssh-server
 sudo systemctl enable --now ssh
