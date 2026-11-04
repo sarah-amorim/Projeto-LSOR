@@ -128,7 +128,7 @@ getent hosts g3-pc4-vm2.grupo3.bsi-26-2.maceio.lab
 
 ## 8. Netplan
 
-Arquivo `/etc/netplan/00-installer-config.yaml`.
+`/etc/netplan/00-installer-config.yaml` é o arquivo de configuração de rede padrão do **Netplan** (utilitário de gerenciamento de rede usado no Ubuntu/Debian). Nele são definidos as placas de rede, endereços IP (estáticos ou via DHCP), gateways e servidores DNS do sistema em formato YAML.
 
 ### Gateway (g3-pc1-gw)
 
@@ -176,6 +176,13 @@ ip a
 ip route
 ```
 
+* **`sudo netplan apply`**  
+  Aplica imediatamente as alterações feitas nos arquivos de configuração do Netplan (em `/etc/netplan/`).
+* **`ip a`** *(ou `ip address`)*  
+  Exibe todas as interfaces de rede do sistema com seus respectivos endereços IP, endereços MAC e status (se estão ativas/UP ou inativas/DOWN).
+* **`ip route`**  
+  Exibe a tabela de roteamento IP do sistema, mostrando por qual interface e gateway os pacotes de dados trafegam para alcançar outras redes e a Internet (rota *default*).
+  
 <img width="801" height="402" alt="image" src="https://github.com/user-attachments/assets/860f9a1f-410d-40e9-a614-9661769aa397" />
 
 ## 9. Gateway: encaminhamento e NAT
