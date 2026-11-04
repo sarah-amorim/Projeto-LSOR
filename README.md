@@ -1,5 +1,7 @@
 # Projeto LSOR: Rede virtualizada com 8 VMs e Gateway NAT (Grupo 3)
 
+**Disciplina: Laboratório de Redes e Sistemas Operacionais**
+**Professor: Alaelson Jatobá**
 **Turma:** bsi-26-2 (2026.2) 
 **Integrantes:**
 
