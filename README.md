@@ -201,6 +201,10 @@ Passos conforme a Aula 08:
 - comandos das regras MASQUERADE e FORWARD
 - comandos de persistência com iptables-persistent
 
+<img width="686" height="190" alt="Captura de tela 2026-11-04 195331" src="https://github.com/user-attachments/assets/c3975777-4b3a-4d61-99d2-7b9826579302" />
+<img width="456" height="35" alt="Captura de tela 2026-11-04 195319" src="https://github.com/user-attachments/assets/4f40a325-5001-4fba-99fc-bfcf726e8bd8" />
+
+
 Verificação no gateway:
 
 ```bash
