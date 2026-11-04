@@ -7,12 +7,12 @@
 
 
 **Integrantes:**
-| Nome | Usuário da VM |
+| Nome e Matrícula | Usuário da VM |
 |:--|:--|
-| Arthur Soares Silva | arthur.soares |
-| Marco Bueno | marco.bueno |
-| Pedro Henrique Cavalcante Rocha | pedro.rocha |
-| Sarah Amorim dos Santos | sarah.amorim |
+| Arthur Soares Silva 2021008710| arthur.soares |
+| Marco Bueno 2021008953 | marco.bueno |
+| Pedro Henrique Cavalcante Rocha 2023007730| pedro.rocha |
+| Sarah Amorim dos Santos 2024014201 | sarah.amorim |
 
 
 ## 1. Apresentação
