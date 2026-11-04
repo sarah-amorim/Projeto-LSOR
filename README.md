@@ -2,7 +2,8 @@
 
 - Disciplina: Laboratório de Redes e Sistemas Operacionais
 - Professor: Alaelson Jatobá
-- Turma: bsi-26-2 (2026.2) 
+- Turma: bsi-26-2 (2026.2)
+- Data: 04/11/2026
 - Instituto Federal de Alagoas
 
 
