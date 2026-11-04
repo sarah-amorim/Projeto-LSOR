@@ -281,11 +281,20 @@ traceroute google.com
 ```
 <img width="885" height="667" alt="Captura de tela 2026-11-04 201138" src="https://github.com/user-attachments/assets/80aafdca-1ed6-42bc-8f4b-c712f1778111" />
 
-## 12. Problemas encontrados e soluções
+## 12. Problemas encontrados
 
-| Problema | Causa | Solução |
-|:--|:--|:--|
-| | | |
+| Problema | Causa |
+|:--|:--|
+| Placas de rede de algumas VMs em modo **NAT** em vez de Bridge | Adaptador 1 do VirtualBox configurado como NAT, e não como Placa em Ponte |
+| IP da rede do laboratório (`172.20.22.x/22`) recebido por DHCP, além do IP estático | `dhcp4: false` documentado, mas há outro arquivo em `/etc/netplan/` (ex.: `50-cloud-init.yaml`) com DHCP ligado |
+| Duas rotas padrão: uma via `192.168.26.49` e outra via `172.20.20.1` | A rota recebida por DHCP convive com a rota estática, e a VM sai para a internet sem passar pelo gateway, o que deixa de testar o NAT |
+| Ausência de ping entre as máquinas | Consequência dos problemas acima (placas em NAT, rede com IPs misturados) e da falta de `/etc/hosts` em algumas VMs |
+| Falta do `/etc/hosts` no gateway e em outras VMs | Arquivo não configurado em todas as 9 VMs |
+| Volume `ubuntu-lv` com 11,5 GB e 11,5 GB livres no grupo de volumes | Volume lógico não estendido após a instalação |
+| Disco de 25 GB na tabela de hardware | Disco criado fora do padrão da disciplina (32 GB) |
+| IP da WAN divergente: `172.20.23.49` no roteiro e `172.20.23.50` na planilha | Registros não conferidos entre si |
+| Topologia física com nome errado (`g2-pc2-vm1`) e sem topologia lógica | Erro de digitação na figura refeita e figura lógica não incluída |
+| Seção de NAT sem comandos nem evidências | Passos da Aula 08 não documentados |
 
 ## 13. Referências
 
