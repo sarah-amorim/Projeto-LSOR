@@ -82,7 +82,10 @@ done
 getent passwd sarah.amorim pedro.rocha arthur.soares marco.bueno
 ls -l /home
 ```
-<img width="801" height="197" alt="passo-6" src="https://github.com/user-attachments/assets/7bddf4c5-c710-4b67-90a4-3a1c4b37a926" />
+Este script cria quatro utilizadores (`sarah.amorim`, `pedro.rocha`, `arthur.soares`, `marco.bueno`) com diretórios pessoais, shell Bash, privilégios de `sudo` e solicita a definição das respetivas senhas.
+Em seguida, verifica a criação das contas no sistema (`getent passwd`) e confirma a existência dos seus diretórios em `/home` (`ls -l`).
+
+<img width="927" height="300" alt="image" src="https://github.com/user-attachments/assets/7236730b-e712-4b4e-a781-517369f84b24" />
 
 ## 7. Hostname e /etc/hosts
 
