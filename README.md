@@ -267,6 +267,8 @@ ping -c 3 1.1.1.1
 ping -c 3 google.com
 traceroute google.com
 ```
+<img width="885" height="667" alt="Captura de tela 2026-11-04 201138" src="https://github.com/user-attachments/assets/80aafdca-1ed6-42bc-8f4b-c712f1778111" />
+
 ## 12. Problemas encontrados e soluções
 
 | Problema | Causa | Solução |
