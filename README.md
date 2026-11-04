@@ -14,7 +14,15 @@
 | Pedro Henrique Cavalcante Rocha 2023007730| pedro.rocha |
 | Sarah Amorim dos Santos 2024014201 | sarah.amorim |
 
+## Objetivo
 
+Montar e documentar a rede virtualizada do **Grupo 3** (turma bsi-26-2), com **8 VMs Ubuntu Server** distribuídas em 4 PCs do laboratório e **1 VM gateway** com NAT, de forma que:
+
+- a sub-rede `192.168.26.48/28` esteja planejada e distribuída entre o gateway e as VMs;
+- todas as VMs tenham **IP estático** (Netplan), hostname/FQDN padronizado, `/etc/hosts` e usuários iguais;
+- o gateway faça **roteamento e NAT** (`ip_forward` + IPTables), dando acesso à internet às VMs do grupo;
+- a conectividade (ping, SSH e internet) seja **testada e registrada** neste tutorial.
+  
 ## 1. Apresentação
 
 Rede privada do Grupo 3 com 8 VMs Ubuntu Server distribuídas em 4 PCs do laboratório, mais uma VM gateway que roteia e faz NAT do tráfego para a rede do laboratório. Todas as máquinas têm IP fixo, nome dentro do domínio `grupo3.bsi-26-2.maceio.lab` e os mesmos usuários.
