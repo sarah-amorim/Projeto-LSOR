@@ -66,8 +66,9 @@ sudo vgs
 sudo lvs
 df -h /
 ```
+Este bloco de comandos analisa a estrutura de armazenamento do sistema, listando todos os discos e partições disponíveis com o ```lsblk```. Em seguida, inspeciona a hierarquia do LVM exibindo os volumes físicos (```pvs```), grupos de volumes (```vgs```) e volumes lógicos (```lvs```) existentes. Por fim, o ```df -h /``` verifica a capacidade e o espaço livre restante no sistema de arquivos da partição raiz.
 
-<img width="803" height="357" alt="passo-5" src="https://github.com/user-attachments/assets/d23b41c0-1bbf-4f1b-8dfc-f29bfabf65ed" />
+<img width="813" height="563" alt="image" src="https://github.com/user-attachments/assets/a9e389d1-d4fa-4d08-898a-47bb53663569" />
 
 ## 6. Usuários
 
