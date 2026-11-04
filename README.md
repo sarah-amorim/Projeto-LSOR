@@ -52,6 +52,7 @@ Rede privada do Grupo 3 com 8 VMs Ubuntu Server distribuídas em 4 PCs do labora
 | g3-pc4-vm2 | 4 | enp0s3 | 192.168.26.57/28 | 192.168.26.49 | g3-pc4-vm2.grupo3.bsi-26-2.maceio.lab |
 
 > Todas as placas usam **Placa em Ponte (Bridge)**, pois as VMs estão em 4 PCs diferentes e a Rede Interna do VirtualBox só funciona dentro de um mesmo hospedeiro.
+<img width="587" height="130" alt="Captura de tela 2026-11-04 202222" src="https://github.com/user-attachments/assets/3ed4bbb6-0e11-407c-8213-4c2b586e1507" />
 
 ## 4. Hardware das VMs
 
