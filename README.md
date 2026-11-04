@@ -276,3 +276,12 @@ traceroute google.com
 | Problema | Causa | Solução |
 |:--|:--|:--|
 | | | |
+
+## 13. Referências
+
+[1] CANONICAL. **Configuring networks**. Ubuntu Server documentation. <https://ubuntu.com/server/docs/configuring-networks>
+[2] NETPLAN. **Netplan reference**. <https://netplan.readthedocs.io/en/latest/reference/>
+[3] ASC INC. **How to build a simple router with Ubuntu Server 18.04.1 LTS**. <https://www.ascinc.com/blog/linux/how-to-build-a-simple-router-with-ubuntu-server-18-04-1-lts-bionic-beaver/>
+[4] LAURENSON, Thomas. **Building a Ubuntu Linux gateway**. 2018. <https://www.thomaslaurenson.com/blog/2018/07/05/building-a-ubuntu-linux-gateway/>
+[5] KUROSE, James F.; ROSS, Keith W. **Redes de Computadores e a Internet**. 8. ed. Pearson, 2022.
+[6] LACROIX, Jay. **Mastering Ubuntu Server**. 4. ed. Packt Publishing, 2023.
