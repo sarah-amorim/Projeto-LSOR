@@ -217,8 +217,7 @@ sudo systemctl enable --now ssh
 systemctl status ssh
 ```
 
-<img width="802" height="461" alt="passo-10" src="https://github.com/user-attachments/assets/e2eca398-e394-4b74-8bfc-741f375c4156" />
-
+<img width="1492" height="442" alt="image" src="https://github.com/user-attachments/assets/8f765415-f034-4fb2-90d6-d66ffb3bc4a8" />
 
 ## 11. Testes
 
