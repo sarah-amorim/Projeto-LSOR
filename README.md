@@ -17,7 +17,7 @@ Rede privada do Grupo 3 com 8 VMs Ubuntu Server distribuídas em 4 PCs do labora
 
 ## 2. Topologia 
 
-<img width="1780" height="830" alt="image" src="https://github.com/user-attachments/assets/0ee64f02-1808-456d-9d0c-1c4a85203cfc" />
+<img width="1780" height="830" alt="Topologia do Projeto LSOR" src="https://raw.githubusercontent.com/arthur-343/imgs_trabalho/main/3164a57f-7975-4ae8-87a6-d1d05b1ba4f7.jpg" />
 
 ## 3. Endereçamento e nomes
 
