@@ -117,6 +117,13 @@ grep grupo3 /etc/hosts
 getent hosts g3-pc1-gw
 getent hosts g3-pc4-vm2.grupo3.bsi-26-2.maceio.lab
 ```
+
+* **FQDN (*Fully Qualified Domain Name*):** É o nome completo e inequívoco de uma máquina na rede (ex.: `g3-pc2-vm1.grupo3.bsi-26-2.maceio.lab`). Ele é composto pelo nome do host (`g3-pc2-vm1`) seguido por toda a estrutura do domínio.
+* **Hostname:** É o nome individual atribuído ao computador/VM (ex.: `g3-pc2-vm1`). Serve para identificar o dispositivo na rede de forma amigável, sem a necessidade de memorizar o endereço IP.
+* **`/etc/hosts`:** É um arquivo de texto do sistema operacional que mapeia endereços IP para nomes de host manualmente. O sistema consulta este arquivo localmente antes de fazer requisições a um servidor DNS externo.
+* **Resolução de nomes:** É o processo de traduzir um nome legível por humanos (como `g3-pc1-gw`) para o seu respectivo endereço IP numérico (como `192.168.26.49`), permitindo a comunicação entre as máquinas da rede.
+* **`127.0.1.1`:** É um endereço IP de loopback (muito comum em distribuições como Debian e Ubuntu) reservado no `/etc/hosts` para associar o FQDN e o hostname da própria máquina local ao seu endereço interno.
+
 <img width="801" height="267" alt="passo-7" src="https://github.com/user-attachments/assets/454aada0-9049-4ca9-8176-328389c2e08a" />
 
 ## 8. Netplan
@@ -172,6 +179,12 @@ ip route
 <img width="801" height="402" alt="image" src="https://github.com/user-attachments/assets/860f9a1f-410d-40e9-a614-9661769aa397" />
 
 ## 9. Gateway: encaminhamento e NAT
+
+* **Gateway:** Máquina que atua como ponto de saída e ponte entre a rede interna (VMs) e a rede externa (Internet).
+* **`ip_forward`:** Parâmetro do kernel Linux que habilita o roteamento de pacotes entre diferentes interfaces de rede.
+* **NAT / MASQUERADE:** O NAT traduz os IPs da rede privada para o IP do Gateway. O `MASQUERADE` altera dinamicamente o IP de origem dos pacotes para permitir o acesso da rede interna à Internet.
+* **Regras `FORWARD`:** Regras do firewall (`iptables`) que autorizam o tráfego de pacotes a passar através do Gateway de uma interface para outra.
+* **`iptables-persistent`:** Utilitário que salva e recarrega automaticamente as regras do `iptables` durante a inicialização do sistema.
 
 Passos conforme a Aula 08:
 
